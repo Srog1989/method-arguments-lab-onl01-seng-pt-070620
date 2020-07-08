@@ -5,8 +5,8 @@ def introduction (name)
 end
 introduction ("Sarah")
 
-def introduction_with_language (name, language)
+def introduction_with_language ("name", "language")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
-introduction_with_language ("Sarah", "Ruby language")
+introduction_with_language ("Sarah", "Ruby")
   
